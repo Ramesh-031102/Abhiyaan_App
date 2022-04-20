@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="abhiyaan_package" type="Node1" name="Node1" output="screen"></node>
+    <node pkg="abhiyaan_package" type="Node2" name="Node2" output="screen"></node>
+</launch>
