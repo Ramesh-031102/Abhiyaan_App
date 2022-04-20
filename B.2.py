@@ -10,7 +10,7 @@ def getcontours(img):
         if area > 800 and area < 1000 and peri > 100 and peri < 140:
             cv2.drawContours(contour,count,-1,[30,50,25],3)
 
-vid = cv2.VideoCapture()
+vid = cv2.VideoCapture("C:\Users\Ramesh\Downloads\bolt_test_pothole.mp4")
 cv2.namedWindow('video',cv2.WND_PROP_FULLSCREEN)
 cv2.setWindowProperty('video',cv2.WND_PROP_FULLSCREEN,cv2.WINDOW_FULLSCREEN)
 
