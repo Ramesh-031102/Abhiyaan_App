@@ -3,7 +3,7 @@
    Datatype: String */
 
 #include "ros/ros.h"
-#include"std_msgs/String.h"
+#include "std_msgs/String.h"
 
 void func(const std_msgs::String::ConstPtr& msg){
 	ROS_INFO("The message that was recieved : %s",msg->data.c_str());
