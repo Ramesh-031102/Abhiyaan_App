@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="turtle" type="Turtle1" name="Turtle1" output="screen"></node>
+    <node pkg="turtle" type="Turtle2" name="Turtle2" output="screen"></node>
+</launch>
