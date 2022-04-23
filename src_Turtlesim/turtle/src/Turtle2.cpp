@@ -22,8 +22,8 @@ void func(const turtlesim::Pose& msg){
         theta = 6.283185 - theta;
     if(theta1 < 0)
         theta1 += 6.283185;
-    l_vel_x1 = 3/(r*sin(theta1-theta));
-    a_vel_z1 = 6/pow(r,2);
+    l_vel_x2 = 3/(r*sin(theta1-theta));
+    a_vel_z2 = 6/pow(r,2);
 }
 
 int main(int argc, char **argv){
